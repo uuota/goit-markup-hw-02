@@ -69,20 +69,38 @@ body {
     background-color: #FFFFFF;
 
 }
-.hero{
-    background: #2E2F42;}
-.button{background: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);}
-.button:hover,
-.button:focus {
-    background: #404BBF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+.hero-section {
+    background-color: #2E2F42;
 }
 
-.button-title{font-family: 'Roboto';
+.hero-section .hero-title {
+    font-family: 'Roboto';
     font-style: normal;
-    color: #FFFFFF;}
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    color: white;
+    line-height: 1.07
+}
+
+.button-hero {
+    background: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+
+}
+
+.button-hero:hover,
+.button-hero:focus {
+    background: #404BBF;
+}
 
 
 .studio{font-family: 'Raleway', sans-serif;
@@ -107,8 +125,7 @@ footer{background: #2E2F42;}
         top: 0px;
         background: #FFFFFF;
         border-bottom: 1px solid #E7E9FC;}
-.title{width: 264px;
-    height: 24px;
+.title{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -117,8 +134,8 @@ footer{background: #2E2F42;}
     letter-spacing: 0.02em;
     color: #2E2F42;
 background-color: #FFFFFF}
-.text{width: 264px;
-    height: 72px;
+.text{
+    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -159,7 +176,8 @@ line-height: 1.11;
 color: #2e2f42;;
 text-align: center;
 text-transform: capitalize;
-letter-spacing: 0.02em
+letter-spacing: 0.02em;
+background-color: #FFFFFF
 }
 .f-section{background-color: #F4F4FD}
 .f-list{background-color: #FFFFFF}

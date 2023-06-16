@@ -114,7 +114,8 @@ footer{background: #2E2F42;}
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #2E2F42;}
+    color: #2E2F42;
+background-color: #FFFFFF}
 .text{width: 264px;
     height: 72px;
     font-family: 'Roboto';
@@ -123,7 +124,8 @@ footer{background: #2E2F42;}
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;}
+    color: #434455;
+background-color: #FFFFFF}
 .contacts{
         font-family: 'Roboto';
         font-style: normal;

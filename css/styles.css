@@ -34,6 +34,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    background-color:#FFFFFF ;
 }
 
 .header-section {
@@ -87,7 +88,7 @@ body {
 .studio{font-family: 'Raleway', sans-serif;
     color: #2E2F42
 }
-.studio-footer{ont-family: 'Raleway', sans-serif;
+.studio-footer{font-family: 'Raleway', sans-serif;
     color: #F4F4FD;}
 .hero-title{font-family: 'Roboto';
     font-style: normal;
@@ -155,6 +156,9 @@ background-color: #FFFFFF}
 }
 .doing{font-size: 36px;
 line-height: 1.11;
+color: #2e2f42;;
 text-align: center;
 text-transform: capitalize;
-color: #2e2f42;}
+letter-spacing: 0.02em
+}
+.f-section{background-color: #F4F4FD}

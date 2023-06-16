@@ -11,7 +11,56 @@
     --text-color-white: #fff;
     --button-filer-text: #4D5AE5;
 }
+.link {
+    font-family: 'Roboto';
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--background-color-dark);
+}
 
+.link:hover,
+.link:focus {
+    color: var(--link-color-active);
+}
+
+.list {
+    list-style: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.header-section {
+    font-family: "Raleway", "Roboto", sans-serif;
+}
+.logo-link {
+    font-family: 'Raleway' sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    text-decoration: none
+}
+
+.studio-dark {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
 body {
     color: var(--text-color-main);
     font-family: "Roboto", sans-serif;
@@ -29,21 +78,6 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
- .link-logo{text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px; 
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    font-weight: 800
-    color: #4D5AE5;}
-.list-style{text-decoration: none;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: #2e2f42;
-}
 
 .button-title{font-family: 'Roboto';
     font-style: normal;
@@ -55,11 +89,6 @@ body {
 }
 .studio-footer{ont-family: 'Raleway', sans-serif;
     color: #F4F4FD;}
-.nav{font-family: 'Raleway', sans-serif;
-    list-style: none;
-    text-decoration: none;
-    color: #2E2F42;
-}
 .hero-title{font-family: 'Roboto';
     font-style: normal;
     color: #FFFFFF;}

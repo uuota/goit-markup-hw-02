@@ -80,7 +80,8 @@ body {
     font-size: 56px;
     letter-spacing: 0.02em;
     color: white;
-    line-height: 1.07
+    line-height: 1.07;
+    text-align: center;
 }
 
 .button-hero {

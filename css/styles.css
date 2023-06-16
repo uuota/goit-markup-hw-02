@@ -96,12 +96,7 @@ footer{background: #2E2F42;}
 .footer-title{font-family: 'Roboto';
     font-style: normal;
     color: #F4F4FD;}
-.title{font-family: 'Roboto';
-    font-style: normal;
-    color: #2E2F42;}
-.text{font-family: 'Roboto';
-    font-style: normal;
-    color: #434455;}
+
     .header{box-sizing: border-box;
     
         position: absolute;
@@ -156,3 +151,8 @@ footer{background: #2E2F42;}
     color: #FFFFFF;
     border: none;
 }
+.doing{font-size: 36px;
+line-height: 1.11;
+text-align: center;
+text-transform: capitalize;
+color: #2e2f42;}

@@ -14,11 +14,10 @@
 
 body {
     color: var(--text-color-main);
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    line-height: 1.5;
-    font-size: 16px;
-    background-color: var(--background-color-white);
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+
 }
 .hero{
     background: #2E2F42;}
@@ -30,15 +29,22 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
- .link{text-decoration: none;
+ .link-logo{text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-size: 18px; 
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    font-weight: 700;
-    font-style: bold;
+    font-weight: 800
     color: #4D5AE5;}
+.list-style{text-decoration: none;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #2e2f42;
+}
+
 .button-title{font-family: 'Roboto';
     font-style: normal;
     color: #FFFFFF;}
